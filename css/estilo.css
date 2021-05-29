@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+/* * Formatação do header  */
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(74, 196, 74);
+    padding: 30px;
+}
+
+.titulo {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+
+/* * Formatação do main */
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(74, 196, 74);
+    margin-top: 20px;
+}
+
+.saldo {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+/* * Formatação do main, Formulario */
+.container-formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-inputs {
+    display: flex;
+    justify-content: center
+}
+
+.label-radio {
+    margin-left: 20px;
+}
+
+.input-radio {
+    margin-right: 40px;
+}
+
+#input-valor {
+    margin-top: 8px;
+}
+
+.button {
+    margin-top: 4px;
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: rgb(20, 143, 4);
+}
+
+/* * Formatação do main, lista */
+
+.lista-de-operacoes {
+    margin-top: 10px;
+}
+
+.historico-de-cada-operacao {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    background: rgb(142, 233, 130);
+    padding: 8px;
+}

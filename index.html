@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>ByteBank</title>
+</head>
+<body>
+    <section class="container">
+        <header class="container-header">
+            <h1 class="titulo">ByteBank</h1>
+        </header>
+
+        <main class="container-principal">
+            <h2 class="subtitulo">Conta</h2>
+            <h3 class="saldo">Saldo: R$ 900</h3>
+            <form class="container-formulario">
+                <div class="container-inputs">
+                    <label for="saque">Saque</label>
+                    <input type="radio">
+                </div>
+                <div class="container-inputs">
+                    <label class="label-radio" for="deposito">Deposito</label>
+                    <input class="input-radio" type="radio">
+                </div>
+                <div class="container-inputs" id="input-valor">
+                    <label class="label-radio" for="valor">Valor:</label>
+                    <input class="input-radio" ype="text">
+                </div>
+                <div class="container-inputs">
+                    <button type="submit" class="button">Realiza operação</button>
+                </div>
+
+                <ul class="lista-de-operacoes">
+                    <li class="historico-de-cada-operacao">
+                        <p>valor</p>
+                        <p>operação</p>
+                        <p>valor</p>
+                    </li>
+                    <li class="historico-de-cada-operacao">
+                        <p>valor</p>
+                        <p>operação</p>
+                        <p>valor</p>
+                    </li>
+                    <li class="historico-de-cada-operacao">
+                        <p>valor</p>
+                        <p>operação</p>
+                        <p>valor</p>
+                    </li>
+                    <li class="historico-de-cada-operacao">
+                        <p>valor</p>
+                        <p>operação</p>
+                        <p>valor</p>
+                    </li>
+                </ul>
+            </form>
+        </main>
+    </section>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
